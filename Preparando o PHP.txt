@@ -1,0 +1,10 @@
+Instalar o xampp mais proximo da versão 7 para não ter muitas diferenças do usado no curso
+
+O arquivo de configutação do Apache é o httpd.conf
+O arquivo de configuração do PHP é o php.ini
+
+A porta do Apache é a 80 e a porta do MySQL é a 3306, quando a porta já está sendo usada não vai conseguir dar start
+Em configuração pode-se mudar o numero da porta e em Service pode-se parar a porta que estava sendo usada anteriormente
+Service -> Procurar a porta que quer parar (ex: MySQL) -> Clicar com a tecla direita -> Parar execução -> Fechar o Service
+
+Procurar "localhost" no google para testar se deu certo
